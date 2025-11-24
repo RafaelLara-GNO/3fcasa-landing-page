@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Hammer } from "lucide-react";
 
 export const Header = () => {
   const scrollToSection = (id: string) => {
@@ -13,6 +14,7 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
+            <Hammer className="h-8 w-8 text-primary" />
             <div className="text-2xl font-bold">
               <span className="text-primary">3F</span>
               <span className="text-foreground"> Casa de Ferragens</span>
